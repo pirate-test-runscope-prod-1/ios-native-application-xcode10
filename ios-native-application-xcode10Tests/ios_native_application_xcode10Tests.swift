@@ -21,9 +21,34 @@ class ios_native_application_xcode10Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
+    func testExample1() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results
+        XCTAssertFalse(false);
+    }
+    
+    func testExample2() {
+        // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertFalse(false);
+    }
+    
+    func testExample3() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertFalse(false);
+    }
+    
+    func testExample4() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertFalse(false);
+    }
+    
+    func testExample5() {
+        // Use recording to get started writing UI tests.
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertFalse(false);
     }
     
     func testPerformanceExample() {

@@ -1,25 +1,19 @@
 //
-//  ios_native_application_xcode10UITests.swift
-//  ios-native-application-xcode10UITests
+//  ios_native_application_xcode10Tests.swift
+//  ios-native-application-xcode10Tests
 //
 //  Created by Evgenii Khramkov on 6/7/18.
 //  Copyright © 2018 App Center. All rights reserved.
 //
 
 import XCTest
+@testable import ios_native_application_xcode10
 
-class ios_native_application_xcode10UITests: XCTestCase {
+class ios_native_application_xcode10Tests1: XCTestCase {
+    
     override func setUp() {
         super.setUp()
-        
         // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
-        // UI tests must launch the application that they test. Doing this in setup will make sure it happens for each test method.
-        XCUIApplication().launch()
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
     
     override func tearDown() {
@@ -27,33 +21,41 @@ class ios_native_application_xcode10UITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample1() {
+    func testExample11() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results
         XCTAssertFalse(false);
     }
     
-    func testExample2() {
+    func testExample12() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertFalse(false);
     }
     
-    func testExample3() {
+    func testExample13() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertFalse(false);
     }
     
-    func testExample4() {
+    func testExample14() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertFalse(false);
     }
     
-    func testExample5() {
+    func testExample15() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertFalse(false);
     }
+    
+    func testPerformanceExample() {
+        // This is an example of a performance test case.
+        self.measure {
+            // Put the code you want to measure the time of here.
+        }
+    }
+    
 }

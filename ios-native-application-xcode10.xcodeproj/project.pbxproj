@@ -15,6 +15,8 @@
 		7EF44A1F20C9685F00166562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF44A1D20C9685F00166562 /* LaunchScreen.storyboard */; };
 		7EF44A2A20C9685F00166562 /* ios_native_application_xcode10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF44A2920C9685F00166562 /* ios_native_application_xcode10Tests.swift */; };
 		7EF44A3520C9685F00166562 /* ios_native_application_xcode10UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF44A3420C9685F00166562 /* ios_native_application_xcode10UITests.swift */; };
+		7EF44A7F20CAC6F400166562 /* ios_native_application_xcode10UITests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF44A7E20CAC6F400166562 /* ios_native_application_xcode10UITests1.swift */; };
+		7EF44A8120CAC70800166562 /* ios_native_application_xcode10Tests1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF44A8020CAC70800166562 /* ios_native_application_xcode10Tests1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		7EF44A3020C9685F00166562 /* ios-native-application-xcode10UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-native-application-xcode10UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF44A3420C9685F00166562 /* ios_native_application_xcode10UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_native_application_xcode10UITests.swift; sourceTree = "<group>"; };
 		7EF44A3620C9685F00166562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EF44A7E20CAC6F400166562 /* ios_native_application_xcode10UITests1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ios_native_application_xcode10UITests1.swift; sourceTree = "<group>"; };
+		7EF44A8020CAC70800166562 /* ios_native_application_xcode10Tests1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ios_native_application_xcode10Tests1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				7EF44A2920C9685F00166562 /* ios_native_application_xcode10Tests.swift */,
+				7EF44A8020CAC70800166562 /* ios_native_application_xcode10Tests1.swift */,
 				7EF44A2B20C9685F00166562 /* Info.plist */,
 			);
 			path = "ios-native-application-xcode10Tests";
@@ -123,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				7EF44A3420C9685F00166562 /* ios_native_application_xcode10UITests.swift */,
+				7EF44A7E20CAC6F400166562 /* ios_native_application_xcode10UITests1.swift */,
 				7EF44A3620C9685F00166562 /* Info.plist */,
 			);
 			path = "ios-native-application-xcode10UITests";
@@ -269,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF44A8120CAC70800166562 /* ios_native_application_xcode10Tests1.swift in Sources */,
 				7EF44A2A20C9685F00166562 /* ios_native_application_xcode10Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF44A7F20CAC6F400166562 /* ios_native_application_xcode10UITests1.swift in Sources */,
 				7EF44A3520C9685F00166562 /* ios_native_application_xcode10UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

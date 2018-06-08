@@ -8,7 +8,7 @@
 
 import XCTest
 
-class ios_native_application_xcode10UITests: XCTestCase {
+class ios_native_application_xcode10UITests1: XCTestCase {
     override func setUp() {
         super.setUp()
         
@@ -27,25 +27,25 @@ class ios_native_application_xcode10UITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample1() {
+    func testExample11() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results
         XCTAssertFalse(false);
     }
     
-    func testExample2() {
+    func testExample12() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertFalse(false);
     }
     
-    func testExample3() {
+    func testExample13() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertFalse(false);
     }
     
-    func testExample4() {
+    func testExample14() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertFalse(false);
